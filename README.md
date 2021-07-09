@@ -1,6 +1,6 @@
 # Mapon Task
 
-This is a project based on the requirements cited in the following link:
+This is a flat PHP project based on the requirements requested at the link below:
 https://docs.google.com/document/d/11uIJCSORoN09xekOAAhRgypjg90DkEeCATLmm2y5eNw/edit
 
 ### Home View
