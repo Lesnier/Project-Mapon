@@ -1,7 +1,7 @@
 <?php
-//defined('BASEPATH') or exit('No se permite acceso directo');
+
 /**
- * Identificacion de la URI
+ * URI Identification
  */
 class Router
 {
@@ -26,7 +26,7 @@ class Router
   public $param;
 
   /**
-   * Inicializa los atributos
+   * Initialize attributes
    */
   public function __construct()
   {
@@ -37,7 +37,7 @@ class Router
   }
 
   /**
-   * Asigna la uri completa
+   * Assign the full uri
    */
   public function setUri()
   {
@@ -45,7 +45,7 @@ class Router
   }
 
   /**
-   *Asigna el nombre del controlador
+   * Assign the controller name
    */
   public function setController()
   {
@@ -53,7 +53,7 @@ class Router
   }
 
   /**
-   * Asigna el nombre del metodo
+   * Assign the name of the method
    */
   public function setMethod()
   {
@@ -61,7 +61,7 @@ class Router
   }
 
   /**
-   * Asigna el valor del parametro si existe segun el metodo de peticion
+   * Assign the value of the parameter if it exists according to the request method
    */
   public function setParam()
   {

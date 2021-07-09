@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Clase básica para adminsitrar sesiones
+ * Basic class for managing sessions
  */
 class Session
 {
@@ -17,7 +17,7 @@ class Session
 
 
     /**
-     * Inicializa la sesión
+     * Initialize the session
      */
     public function init()
     {
@@ -25,9 +25,9 @@ class Session
     }
 
     /**
-     * Agrega un elemento a la sesión
-     * @param string $key la llave del array de sesión
-     * @param string $value el valor para el elemento de la sesión
+     * Add an item to the session
+     * @param string $key the session array key
+     * @param string $value the value for the session element
      */
     public function add($key, $value)
     {
@@ -35,9 +35,9 @@ class Session
     }
 
     /**
-     * Retorna un elemento a la sesión
-     * @param string $key la llave del array de sesión
-     * @return string el valor del array de sesión si tiene valor
+     * Returns an element to the session
+     * @param string $key the session array key
+     * @return string the value of the session array if it has value
      */
     public function get($key)
     {
@@ -45,8 +45,8 @@ class Session
     }
 
     /**
-     * Retorna todos los valores del array de sesión
-     * @return el array de sesión completo
+     * Returns all the values of the session array
+     * @return the full session array
      */
     public function getAll()
     {
@@ -54,8 +54,8 @@ class Session
     }
 
     /**
-     * Remueve un elemento de la sesión
-     * @param string $key la llave del array de sesión
+     * Remove an item from the session
+     * @param string $key the session array key
      */
     public function remove($key)
     {
@@ -64,7 +64,7 @@ class Session
     }
 
     /**
-     * Cierra la sesión eliminando los valores
+     * Close the session by removing the values
      */
     public function close()
     {
@@ -75,8 +75,8 @@ class Session
     }
 
     /**
-     * Retorna el estatus de la sesión
-     * @return string el estatus de la sesión
+     * Returns the status of the session
+     * @return string the status of the session
      */
     public function getStatus()
     {

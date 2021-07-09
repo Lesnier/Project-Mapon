@@ -1,6 +1,3 @@
-<?php
-//defined('BASEPATH') or exit('No se permite acceso directo');
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

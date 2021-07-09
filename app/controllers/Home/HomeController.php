@@ -17,7 +17,7 @@ class HomeController extends Controller
   public $model;
 
   /**
-   * Inicializa valores 
+   * Init values
    */
   public function __construct()
   {

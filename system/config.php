@@ -1,18 +1,17 @@
 <?php
-//defined('BASEPATH') or exit('No se permite acceso directo');
+
 
 //////////////////////////////////////
-// Valores de uri
+// Uri values
 /////////////////////////////////////
 
 define('URI', $_SERVER['REQUEST_URI']);
 
 
-
 define('REQUEST_METHOD', $_SERVER['REQUEST_METHOD']);
 
 //////////////////////////////////////
-// Valores de rutas
+// Route values
 /////////////////////////////////////
 
 define('FOLDER_PATH', '/mapon-project');
@@ -30,14 +29,14 @@ define('HELPER_PATH', 'system/helpers/');
 define('LIBS_ROUTE', ROOT . FOLDER_PATH . '/system/libs/');
 
 //////////////////////////////////////
-// Valores de core
+// Core values
 /////////////////////////////////////
 
 define('CORE', 'system/core/');
 define('DEFAULT_CONTROLLER', 'Home');
 
 //////////////////////////////////////
-// Valores de base de datos
+// Database values
 /////////////////////////////////////
 
 define('HOST', 'localhost');
@@ -46,7 +45,7 @@ define('PASSWORD', '');
 define('DB_NAME', 'mapon_db');
 
 //////////////////////////////////////
-// Valores configuracion
+// Configuration values
 /////////////////////////////////////
 
 define('ERROR_REPORTING_LEVEL', -1);

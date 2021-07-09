@@ -6,12 +6,12 @@ require 'system/core/autoload.php';
 require 'vendor/autoload.php';
 
 /**
- * Nivel de errores notificados
+ * Level of reported errors
  */
 error_reporting(ERROR_REPORTING_LEVEL);
 
 /**
- * Inicializa Router y detección de valores de la URI
+ * Initialize Router and detection of URI values
  */
 $router = new Router();
 
@@ -20,7 +20,7 @@ $method = $router->getMethod();
 $param = $router->getParam();
 
 /**
- * Validaciones e inclusión del controlador y el metodo 
+ * Controller and method validations and inclusion
  */
 if(!CoreHelper::validateController($controller))
   $controller = 'ErrorPage';
@@ -33,7 +33,7 @@ if(!CoreHelper::validateMethodController($controller, $method))
   $method = 'exec';
 
 /**
- * Ejecución final del controlador, método y parámetro obtenido por URI
+ * Final execution of the controller, method and parameter obtained by URI
  */
 $controller = new $controller;
 

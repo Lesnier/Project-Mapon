@@ -1,7 +1,7 @@
 <?php
-//defined('BASEPATH') or exit('No se permite acceso directo');
+
 /**
-* Controlador base
+* Base Controller
 */
 
 require_once __DIR__ . '/View.php';

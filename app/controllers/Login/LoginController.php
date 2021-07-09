@@ -1,5 +1,4 @@
 <?php
-//defined('BASEPATH') or exit('No se permite acceso directo');
 
 require_once __DIR__ . '/../../models/Login/LoginModel.php';
 //require_once LIBS_ROUTE . 'Session.php';

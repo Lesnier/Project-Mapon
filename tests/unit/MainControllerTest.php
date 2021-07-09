@@ -2,7 +2,6 @@
 
 use PHPUnit\Framework\TestCase;
 
-
 require_once __DIR__ . '/../../app/controllers/Main/MainController.php';
 
 class MainControllerTest extends TestCase
@@ -31,7 +30,6 @@ class MainControllerTest extends TestCase
         $this->assertArrayHasKey('data', $arrayRoutes);
     }
 
-
     /**
      * @runInSeparateProcess
      */
@@ -58,6 +56,4 @@ class MainControllerTest extends TestCase
         $sessionStatus = session_status() === PHP_SESSION_ACTIVE ? TRUE : FALSE;
         $this->assertEquals($sessionStatus, false);
     }
-
-
 }

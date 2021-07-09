@@ -17,29 +17,8 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `curso_mvc`
+-- Base de datos: `mapon_db`
 --
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `clients`
---
-
-CREATE TABLE `clients` (
-  `id` int(11) NOT NULL,
-  `name` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `address` varchar(150) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `clients`
---
-
-INSERT INTO `clients` (`id`, `name`, `email`, `address`) VALUES
-(14, 'panchito', 'panchito_tester@mail.com', 'libertad'),
-(16, 'ulises', 'ulises@mail.com', 'independencia');
 
 -- --------------------------------------------------------
 
@@ -58,18 +37,11 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `email`, `password`) VALUES
-(1, 'test@dev.com', '$2y$10$/IKYMpshIx8rPOtDIEnkReKb2x4WIrAUgQxJSxZc6cOd.I5cIHYeS');
+(1, 'test@dev.com', '$2y$10$XzUZMAN.KUwPkpg0xSIDi.GOvyF1JDeciikz.lZJvwgMVzQqKP6uu');
 
 --
 -- Índices para tablas volcadas
---
-
---
--- Indices de la tabla `clients`
---
-ALTER TABLE `clients`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `email` (`email`);
+-------------------------------
 
 --
 -- Indices de la tabla `usuarios`
@@ -79,13 +51,8 @@ ALTER TABLE `usuarios`
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
---
+-------------------------------------------
 
---
--- AUTO_INCREMENT de la tabla `clients`
---
-ALTER TABLE `clients`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
