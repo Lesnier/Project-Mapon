@@ -23,6 +23,8 @@ https://docs.google.com/document/d/11uIJCSORoN09xekOAAhRgypjg90DkEeCATLmm2y5eNw/
 
 - If you want to change the name of the folder modify the file **config.php**  (opcional)
 
+- 
+
 - Make sure you have the Composer package manager installed.
 Then run the following script:
 
