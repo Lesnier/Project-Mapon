@@ -23,10 +23,12 @@ https://docs.google.com/document/d/11uIJCSORoN09xekOAAhRgypjg90DkEeCATLmm2y5eNw/
 
 - If you want to change the name of the folder modify the file **config.php**  (opcional)
 
-- 
+- Replace your api-key for Google Map JS API at the end of the file *app/views/Main/main.php*
+<img src="https://raw.githubusercontent.com/Lesnier/Project-Mapon/master/assets/img/remplaceapikey.jpg?raw=true" width="500" >
 
-- Make sure you have the Composer package manager installed.
-Then run the following script:
+
+
+- Make sure you have the Composer package manager installed. Then run the following script:
 
     `composer install`
 
