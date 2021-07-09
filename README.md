@@ -32,7 +32,9 @@ Then run the following script:
 
     `phpunit --testsuite UnitTests`
     
-- Access the website at the link http://<server>/mapon-project
+- Access the website at the link http://<**server**>/mapon-project
+
+- Access credentials **email:** `test@dev.com` **password:** `123456`
 
 
 ## The architecture
