@@ -16,9 +16,9 @@ https://docs.google.com/document/d/11uIJCSORoN09xekOAAhRgypjg90DkEeCATLmm2y5eNw/
 
 ## Installation guide
 
-- Download as zip or clone this repository to your root folder.
+- Download as zip or clone this repository to your root server.
 
-- If you want to change the name of the root folder modify the file **config.php**  (opcional)
+- If you want to change the name of the folder modify the file **config.php**  (opcional)
 
 - Make sure you have the Composer package manager installed.
 Then run the following script:
