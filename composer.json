@@ -1,0 +1,12 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "7.0",
+        "nesbot/carbon": "^2.50",
+        "phpunit/phpunit": "8.3.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\":"app"
+        }
+    }
+}
